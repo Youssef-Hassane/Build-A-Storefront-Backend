@@ -1,0 +1,11 @@
+THE_PORT_NUMBER_OF_THE_SERVER_ENV     = 2012
+THE_POSTGRES_HOST_NAME                = localhost
+THE_POSTGRES_PORT_NUMBER              = 5432
+THE_POSTGRES_DATABASE_FOR_THE_PROJECT = store_database
+THE_POSTGRES_DATABASE_FOR_TESTING     = store_database_test
+THE_POSTGRES_USER                     = postgres
+THE_POSTGRES_PASSWORD_OF_THE_DATABASE = 01501001870
+ENV                                   = development 
+PEPPER_OF_PASSWORD = youssef
+SALT = 10
+TOKEN = hassane
