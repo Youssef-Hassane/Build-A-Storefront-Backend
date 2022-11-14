@@ -3,7 +3,6 @@ import theMorganModule from 'morgan';
 import theHelmetModule from 'helmet';
 import theVariable from './variables';
 import theFunction from './functions';
-//import theErrorMiddleware   from '../Middleware/error-middleware';
 import theRoutesModule from '../Routes/index';
 
 /** Middleware */
