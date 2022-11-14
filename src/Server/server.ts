@@ -29,17 +29,3 @@ theVariable.theExpressApplication.listen(
 
 // Exporting the application
 export default theVariable.theExpressApplication;
-
-//import theDatabase from '../Database-Of-Project/database';
-
-// testing the database
-// theDatabase.connect().then(client =>{
-//     return client.query('SELECT NOW()').then((res)=>{
-//         client.release();
-//         console.log(res.rows);
-//     }).catch(err=>{
-//         client.release();
-//         console.log(err.stack);
-
-//     });
-// });
