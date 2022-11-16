@@ -1,3 +1,13 @@
+| Action                        | Request | EndPoint                 | ID           | Body (JSON)                                                                            | Body (JSON) Example                                                             | Token    |
+|-------------------------------|---------|--------------------------|--------------|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|----------|
+| Add Product                   | POST    | product/add              | Not Required | {   "product_name": String,    "price":String,    "category":String }                  | {   "product_name": "M4",    "price":"999.50",    "category":"Gug" }            | Required |
+| Show All Product Product      | GET     | product/show-all-product | Not Required | --                                                                                     | --                                                                              | Required |
+| Show Specific Product Product | GET     | product/show-product/:ID | Required     | --                                                                                     | --                                                                              | Required |
+| Update Product                | PATCH   | product/update/:ID       | Required     | {   "id": Integer,   "product_name": String,    "price":String,    "category":String } | {   "id": 2,   "product_name": "M4",    "price":"750.50",    "category":"Gug" } | Required |
+| Delete Product                | DELETE  | product/delete/:ID       | Required     | --                                                                                     | --                                                                              | Required |
+
+
+
 # Storefront Backend Project
 
 ## Getting Started
